@@ -6,11 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(
-    to left,
-    rgba(7, 27, 82, 1) 0%,
-    rgb(1, 90, 25) 100%
-  );
+  background: linear-gradient(to left, rgb(3, 44, 34) 0%, rgb(1, 90, 25) 100%);
   text-align: center;
 }
 .app-title {
@@ -19,4 +15,5 @@ body {
   font-size: 4rem;
   color: #a4edb3;
   font-family: "Bigelow Rules";
+  letter-spacing: 0.3rem;
 }
