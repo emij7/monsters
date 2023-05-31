@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import { SearchBox } from "./components/search-box/searchBox";
 import { CardList } from "./components/cardList/cardList";
+import { SearchBox } from "./components/search-box/searchBox.tsx";
 
 const App = () => {
   const [monsters, setMonsters] = useState([]);
