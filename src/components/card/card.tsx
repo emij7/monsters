@@ -1,6 +1,11 @@
+import { Monster } from "../../App";
 import "./card.styles.css";
 
-export const Card = ({ monster: { id, name, email } }) => (
+type CardProps = {
+  monster: Monster;
+};
+
+export const Card = ({ monster: { id, name, email } }: CardProps) => (
   //Another way of destructuring, maybe better because is easier to read is:
   //const {id,name,email} = monster
   <div className="card-container">
